@@ -22,8 +22,8 @@ a:active{color:#0093ff;text-decoration:none;}
 /* header */
 .section{overflow:hidden;position:relative!important;}
 .header{height:100px;}
-.header h1{width:154px;}
-.logo{padding-top:14px;}
+.header h1{width:154px;margin-top: 34px}
+.logo{/*padding-top:14px;*/}
 .header .logo_text{width:163px;margin-top:34px;margin-left:12px;padding-left:12px;color:#999;font-size:12px;font-weight:350; line-height:20px;border-left:1px solid #eeeeee;}
 .top{text-align:right;color:#888888;padding-top:12px;*position:relative;*z-index:2;}
 .top a{color:#888888;margin-left: 8px;}

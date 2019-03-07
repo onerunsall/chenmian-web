@@ -202,12 +202,10 @@ a:active {
     height: 100px;
 }
 
-.header h1 {
-    width: 154px;
-}
+.header h1{width:154px;margin-top: 34px}
 
 .logo {
-    padding-top: 14px;
+   /* padding-top: 14px;*/
 }
 
 .header .logo_text {
