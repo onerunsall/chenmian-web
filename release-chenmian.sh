@@ -3,7 +3,7 @@ echo "admin : asdfj12#!@jweoiqr$@1482DF3ewrjOY"
 echo
 
 domain=chenmian
-project=mumu
+project=home
 domainPath=/root/data/domains/za
 
 versionNote=$1
