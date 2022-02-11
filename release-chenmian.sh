@@ -37,7 +37,6 @@ echo
 echo "-git push"
 git push
 
-exit 0
 echo "-remote push"
 scp -P 22 ./packages/$packageName admin@47.110.157.60:$domainPath
 echo
