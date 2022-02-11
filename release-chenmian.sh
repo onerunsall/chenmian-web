@@ -38,11 +38,11 @@ echo "-git push"
 git push
 
 echo "-remote push"
-scp -P 22 ./packages/$packageName admin@47.110.157.60:$domainPath
+scp -P 33699 ./packages/$packageName admin@47.110.157.60:$domainPath
 echo
 
 echo "-remote deploy"
-ssh -p 22 -t admin@47.110.157.60 "unzip -q -o $domainPath/$packageName -d $domainPath/webroot/$project"
+ssh -p 33699 -t admin@47.110.157.60 "unzip -q -o $domainPath/$packageName -d $domainPath/webroot/$project"
 echo
 
 start https://njshangka.com/home
